@@ -17,5 +17,5 @@ Repository of configuration notes, playbooks, and (evenutally) automation scrips
 
 ### Hardware
 
-- [Lenovo P520](./hardware/lenovo520.md) (128GB RAM, 2TB M.2 NVME using ZFS RAID0, 400GB SSD bootdrive, Nvidia 3080 Ti)
+- [Lenovo P520](./hardware/lenovo520.md) 
 - [Synology 920+](./hardware/synology920.md)
