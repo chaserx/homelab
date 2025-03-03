@@ -19,3 +19,4 @@ Repository of configuration notes, playbooks, and (evenutally) automation scrips
 
 - [Lenovo P520](./hardware/lenovo520.md) 
 - [Synology 920+](./hardware/synology920.md)
+

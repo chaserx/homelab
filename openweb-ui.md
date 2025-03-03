@@ -1,9 +1,13 @@
 # OpenWebUI
 
+- OS: Debian 12 LXC
 - Name: openwebui
 - IP: 192.168.7.166
 - Port: 8080
 - URL: http://192.168.7.166:8080
+- Container u/p: root / "op://Private/prox - openwebui-ct/password"
+- App u/p: my email / "op://Private/prox OpenwebUI/current-password"
+
 
 ## Installation Options
 
@@ -12,6 +16,9 @@ Run this [helper script](https://community-scripts.github.io/ProxmoxVE/scripts?i
 Follow the prompts; enable Ollama. 
 
 ## Update Procedure
+
+You could run the `helper script` above, I don't think that it will muck anything up. The steps below are pulled from
+the steps in the script. Could be useful if you want to update either Ollama or OpenWebUI separately.
 
 1. SSH into the container `ssh root@192.168.7.166`
 1. run `apt update`

@@ -26,3 +26,8 @@ https://tailscale.com/kb/1031/install-linux
 - run `apt upgrade`
 - reboot lxc
 - run `tailscale up` or `tailscale up --accept-routes --advertise-exit-node`
+
+## Resources
+
+- [YouTube: Tailscale inside LXC](https://youtu.be/QJzjJozAYJo?si=8oGuDrllNVLyhAoh)
+- [HOW TO ACCESS MULTIPLE LXC CONTAINERS THROUGH A SINGLE TAILSCALE CONNECTION](https://diegocarrasco.com/access-multiple-lxc-containers-single-tailscale/)
