@@ -16,7 +16,7 @@ https://tailscale.com/kb/1031/install-linux
 
 - Debian 12 LXC
 - Name: tailscale-ct
-- IP: 192.168.7.191
+- IP: `192.168.7.191`
 - u/p: root / "op://Private/proxmox tailscale-ct/password"
 - Options: Disable Key Expiry; advertises subnets; offers exit node
 

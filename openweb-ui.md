@@ -2,18 +2,11 @@
 
 - OS: Debian 12 LXC
 - Name: openwebui
-- IP: 192.168.7.166
-- Port: 8080
-- URL: http://192.168.7.166:8080
+- IP: `192.168.7.166`
+- Port: `8080`
+- URL: `http://192.168.7.166:8080`
 - Container u/p: root / "op://Private/prox - openwebui-ct/password"
 - App u/p: my email / "op://Private/prox OpenwebUI/current-password"
-
-
-## Installation Options
-
-Run this [helper script](https://community-scripts.github.io/ProxmoxVE/scripts?id=openwebui) to create a LXC and install.
-
-Follow the prompts; enable Ollama. 
 
 ## Update Procedure
 
@@ -33,4 +26,4 @@ the steps in the script. Could be useful if you want to update either Ollama or 
 1. restart ollama service `systemctl restart ollama`
 1. check ollama service `systemctl status ollama`
 1. restart openwebui service `systemctl restart open-webui`
-1. check openwebui service `systemctl statu open-webui`
+1. check openwebui service `systemctl status open-webui`
